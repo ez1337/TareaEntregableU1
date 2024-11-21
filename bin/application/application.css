@@ -1,0 +1,157 @@
+.root {
+ -fx-font-family: "Roboto", helvetica, arial, sans-serif;
+ -fx-background-color: #f2f0eb;
+}
+.table-title {
+ -fx-alignment: center;
+ -fx-padding: 10px;
+ -fx-font-size: 30px;
+ -fx-font-weight: 400;
+ -fx-text-fill: #fafafa;
+ -fx-text-alignment: center;
+ -fx-background-color: #1b1e24;
+ -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 4, 0.5, 0, 0);
+}
+.table-view {
+ -fx-pref-width: 800px;
+ -fx-background-color: white;
+ -fx-border-radius: 3px;
+ -fx-padding: 5px;
+ -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0.5, 0, 0);
+}
+.table-view .column-header {
+ -fx-background-color: #1b1e24;
+ -fx-text-fill: #D5DDE5;
+ -fx-font-size: 18px;
+ -fx-font-weight: 100;
+ -fx-text-alignment: center;
+ -fx-border-color: transparent transparent #9ea7af transparent;
+ -fx-border-width: 0 0 4px 0;
+ -fx-padding: 10px;
+}
+.table-view .column-header .label {
+ -fx-text-fill: #D5DDE5;
+ -fx-font-size: 18px;
+}
+.table-view .table-row-cell {
+ -fx-background-color: white;
+ -fx-border-color: #C1C3D1;
+ -fx-font-size: 16px;
+ -fx-text-fill: #666B85;
+ -fx-padding: 10px;
+ -fx-alignment: center-left;
+}
+.table-view .table-row-cell:hover {
+ -fx-background-color: #fdfd96;
+}
+.table-view .table-row-cell:selected {
+ -fx-background-color: #FFB347;
+}
+.table-view .table-cell {
+ -fx-background-color: transparent;
+ -fx-font-size: 18px;
+ -fx-font-weight: 300;
+ -fx-text-fill: #666B85;
+ -fx-padding: 10px;
+ -fx-alignment: center-left;
+}
+.table-view .table-cell.text-left {
+ -fx-alignment: center-left;
+}
+.table-view .table-cell.text-center {
+ -fx-alignment: center;
+}
+.table-view .table-cell.text-right {
+ -fx-alignment: center-right;
+}
+.table-view .table-row-cell:first-child .table-cell:first-child {
+ -fx-background-radius: 3px 0 0 0;
+}
+.table-view .table-row-cell:last-child .table-cell:last-child {
+ -fx-background-radius: 0 3px 0 0;
+}
+.navbar {
+   -fx-background-color: #2c3e50;
+   -fx-padding: 10px 20px;
+   -fx-alignment: center;
+}
+.navbar > Text {
+   -fx-fill: white;
+   -fx-font-size: 20px;
+   -fx-font-weight: bold;
+   -fx-hgrow: ALWAYS;
+}
+.form-container {
+ -fx-background-color: #ffffff;
+ -fx-padding: 20px;
+ -fx-spacing: 10px;
+ -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0.5, 0, 0);
+ -fx-border-radius: 5px;
+ -fx-alignment: center;
+}
+.form-container Label {
+ -fx-font-size: 16px;
+ -fx-font-weight: bold;
+ -fx-text-fill: #666B85;
+ -fx-padding: 5px;
+ -fx-alignment: center-left;
+}
+.form-container ComboBox {
+ -fx-font-size: 16px;
+ -fx-background-color: white;
+ -fx-border-color: #C1C3D1;
+ -fx-border-radius: 5px;
+ -fx-padding: 8px;
+ -fx-text-fill: #666B85;
+}
+.form-container ComboBox .list-cell:hover {
+ -fx-background-color: #fdfd96;
+ -fx-text-fill: #333333;        
+}
+.form-container ComboBox .list-cell:selected {
+ -fx-background-color: #fdfd96; 
+ -fx-text-fill: #333333;        
+}
+.form-container TextField {
+ -fx-font-size: 16px;
+ -fx-background-color: white;
+ -fx-border-color: #C1C3D1;
+ -fx-border-radius: 5px;
+ -fx-padding: 8px;
+ -fx-text-fill: #666B85;
+}
+.form-container ComboBox:hover, .form-container TextField:hover {
+ -fx-border-color: #3498db;
+}
+.form-container Button {
+ -fx-background-color: #3498db;
+ -fx-text-fill: white;
+ -fx-font-size: 16px;
+ -fx-padding: 10px 20px;
+ -fx-border-radius: 5px;
+ -fx-cursor: hand;
+}
+.rowButtons {
+   -fx-spacing: 20;
+   -fx-padding: 20px;
+   -fx-alignment: center;
+}
+.form-container Button:hover {
+ -fx-background-color: #2980b9;
+}
+Button {
+   -fx-background-color: #fdfd96;
+   -fx-text-fill: #666B85;
+   -fx-font-size: 16px;
+   -fx-padding: 10px 20px;
+   -fx-border-radius: 5px;
+   -fx-cursor: hand;
+}
+Button:hover {
+   -fx-background-color: #FFB347;
+}
+
+Label {
+	fx-background-color: #ffffff;
+}
+
